@@ -1,331 +1,427 @@
 export const siteConfig = {
-  businessName: "Ô Gourmandiz d'Aurore",
-  tagline: "Pâtisseries artisanales sur commande · Laboratoire privé",
-  description: "Pâtisseries artisanales de saison sur commande à La Motte (22). Laboratoire privé — pas de vente en boutique.",
+  businessName: "dmp créations",
+  tagline: "Menuisier-ébéniste artisan · Trévé, Centre-Bretagne",
+  description:
+    "Menuisier-ébéniste artisan à Trévé (Bretagne). Meubles sur mesure, restauration, relooking et objets-cadeaux personnalisés en bois.",
 
   contact: {
-    phone: "06 09 84 60 70",
-    whatsapp: "33609846070",
-    email: "ogourmandizdaurore@gmail.com",
+    phone: "06 56 66 78 11",
+    email: "dennis@dmpcreations.fr",
     address: {
-      street: "1 impasse de la Cigogne",
-      city: "La Motte",
+      city: "Trévé",
       postalCode: "22600",
-      region: "Bretagne",
-      country: "France"
+      region: "Centre-Bretagne",
+      country: "France",
     },
-    labNote: "Laboratoire privé — pas de vente en boutique. Toutes les commandes se passent par SMS, téléphone ou WhatsApp."
+    atelierNote:
+      "L'atelier est situé à Trévé — les visites se font sur rendez-vous.",
   },
 
   social: {
-    facebook: "https://www.facebook.com/o.gourmandiz.d.aurore/",
-    instagram: "https://www.instagram.com/o.gourmandiz.d.aurore/",
-    tiktok: "https://www.tiktok.com/tag/ogourmandizdaurore"
-  },
-
-  hours: {
-    callHours: [
-      { day: "Lundi – Vendredi", hours: "8h–12h / 13h30–19h" },
-      { day: "Samedi & Dimanche", hours: "9h–12h" }
-    ],
-    pickup: "Retrait sur rendez-vous"
+    instagram: "https://www.instagram.com/dmpcreations.bzh/",
+    facebook:
+      "https://www.facebook.com/people/Dennis-Potter/pfbid02Jq8d6JKzYVs9wTw9SZoX9zsTCbRNduWVBKRAsEhxAadWErvJUcFPnwFtT7Rjpy1dl/",
+    linkedin: "https://www.linkedin.com/in/dennispotter",
+    pinterest: "https://fr.pinterest.com/dmpcreations/",
   },
 
   hero: {
-    title: "Du beau, du bon, avec des produits d'ici",
-    subtitle: "Je crée vos pâtisseries artisanales de saison, entièrement sur commande depuis mon laboratoire à La Motte (Côtes-d'Armor).",
+    eyebrow: "Artisan du bois · Trévé, Centre-Bretagne",
+    title: "Des meubles et objets\nqui vous ressemblent",
+    subtitle:
+      "Meubles sur mesure, restauration de pièces chères, cadeaux uniques — du bois travaillé avec passion dans mon atelier breton.",
     cta: {
-      primary: "Passer une commande",
-      secondary: "Voir les créations"
-    }
+      primary: "Votre projet",
+      secondary: "Voir les réalisations",
+    },
   },
 
   about: {
-    title: "Qui suis-je ?",
-    subtitle: "Pâtissière à La Motte, Côtes-d'Armor",
+    eyebrow: "Qui est Dennis ?",
+    title: "Un menuisier-ébéniste hors du commun",
     content: [
-      "Rien ne me prédestinait à devenir pâtissière. J'ai d'abord été assistante vétérinaire, avant qu'on me mette le pied à l'étrier en 2022 et que je passe mon CAP en candidat libre en 2023.",
-      "En octobre 2025, j'ai ouvert Ô Gourmandiz d'Aurore — pour créer quelque chose à mon image, et de nouveau sur le secteur : des tartes travaillées façon Chiara Serpaggi, des pyramides de macarons, des pièces montées de fraisier, des biscuits personnalisés, des number cakes personnalisés."
+      "Néerlandais marié à une Bretonne, Dennis travaille le bois depuis plus de 20 ans — d'abord aux Pays-Bas pendant son temps libre, puis en France après son retour en Bretagne avec sa famille.",
+      "Fort d'une expérience solide et diverse, il entame une reconversion professionnelle et obtient son CAP Menuisier Fabricant en 2025, avant d'ouvrir son atelier à Trévé pour mettre sa passion au service des particuliers et professionnels.",
     ],
     values: [
       {
-        title: "Des ingrédients bien choisis",
-        description: "Œufs de Plémet, farine de Saint-Gérand, beurre, crème et lait français. Des produits sélectionnés avec soin pour une qualité constante."
+        title: "Créatif et inventif",
+        description:
+          "Là où d'autres voient un obstacle, Dennis voit une invitation à l'inventivité. Il a toujours des solutions surprenantes pour optimiser vos espaces.",
       },
       {
-        title: "Les fruits qui ont du goût",
-        description: "Je m'approvisionne en fruits de saison chez mon grossiste à Loudéac. Pas de fraises à Noël : ce qui est bon, c'est ce qui est mûr."
+        title: "Plaisir de l'œil",
+        description:
+          "Un objet du quotidien doit être beau, agréable à toucher et plaisant à utiliser. Son exigence en matière de finitions fait de ses pièces des objets qu'on a envie de garder.",
       },
       {
-        title: "Peu sucré, beau à voir",
-        description: "J'aime le pochage précis, les visuels originaux et une douceur légère. Une pâtisserie doit autant plaire à l'œil qu'en bouche."
+        title: "Pratique et fonctionnel",
+        description:
+          "Faciliter le quotidien, aider à organiser, maximiser les potentiels — Dennis conçoit des meubles qui ont une vraie utilité dans la vie de tous les jours.",
       },
       {
-        title: "Je m'adapte à votre occasion",
-        description: "Les parfums suivent la carte de saison. Pour la personnalisation — couleurs, thème, décors — on en parle ensemble."
-      }
+        title: "Solide et durable",
+        description:
+          "Dennis construit pour le long terme : des objets robustes, bien pensés, souvent en bois récupéré ou hérité — des pièces qui se transmettent de génération en génération.",
+      },
+      {
+        title: "Pour tous les budgets",
+        description:
+          "Le sur-mesure et le bois massif ne devraient pas être réservés à quelques-uns. Dennis prend en compte vos moyens et vise le meilleur rapport qualité/satisfaction.",
+      },
     ],
     stats: [
-      { number: "CAP", label: "pâtissier 2023" },
-      { number: "100%", label: "sur commande" },
-      { number: "oct. 2025", label: "ouverture" }
-    ]
+      { number: "20+", label: "ans de pratique" },
+      { number: "CAP", label: "Menuisier 2025" },
+      { number: "100%", label: "sur mesure" },
+    ],
+    quote:
+      "Chaque projet est une nouvelle équation entre volontés, exigences, idées, possibilités… d'où un potentiel de création infini que je ne me lasse pas d'explorer !",
+    quoteAuthor: "Dennis Potter, dmp créations",
   },
 
-  modalites: {
-    title: "Comment ça marche ?",
-    subtitle: "Simple, rapide, sur mesure",
+  prestations: {
+    title: "Les prestations",
+    subtitle: "Trois façons de travailler ensemble",
+    list: [
+      {
+        id: "sur-mesure",
+        name: "Construire sur mesure",
+        emoji: "🤩",
+        description:
+          "Des meubles et solutions de rangement conçus spécifiquement pour répondre à vos besoins et s'adapter à vos espaces. Bibliothèques, lits, placards intégrés, dressing, commodes, niches aménagées, mobilier divers, poulaillers, coffres…",
+        features: [
+          "Conception sur mesure, de A à Z",
+          "Aménagement d'espaces perdus (cage d'escalier, soupente, niche…)",
+          "Dressing, placards et solutions de rangement",
+          "Mobilier intérieur et extérieur",
+          "Essences de bois locales ou récupérées",
+        ],
+        photo: "/dmp-creations-dressing-sur-mesure-inside.jpeg",
+      },
+      {
+        id: "nouvelle-vie",
+        name: "Donner une nouvelle vie",
+        emoji: "🌍",
+        description:
+          "Vous avez des meubles massifs de valeur ou du bois auquel vous tenez ? Dennis adore faire du neuf avec du vieux. Restauration, relooking, réparation de manches de couteaux et d'ustensiles — un choix (éco)logique qui conserve ce qui vous est cher.",
+        features: [
+          "Restauration de meubles anciens",
+          "Relooking et modernisation",
+          "Réparation de manches de couteaux et ustensiles",
+          "Réutilisation de bois récupéré, hérité ou trouvé",
+          "Prolonger la vie d'objets symboliques",
+        ],
+        photo: "/Coiffeuse-Napoleon-III.jpeg",
+      },
+      {
+        id: "cadeaux",
+        name: "Faire plaisir",
+        emoji: "💝",
+        description:
+          "Des cadeaux personnalisés porteurs d'émotions fortes. Jeux, jouets, couteaux, lampes, boîtes, coffrets, chevalets, cadres… Rien n'est impossible — vous pouvez même utiliser votre propre bois pour une dimension supplémentaire.",
+        features: [
+          "Couteaux personnalisés avec coffret gravé",
+          "Lampes et luminaires uniques",
+          "Jeux en bois (échiquier, Cornhole…)",
+          "Coffres, jouets et objets déco",
+          "Option : réutiliser votre propre bois",
+        ],
+        photo: "/IMG_3778.jpeg",
+      },
+    ],
+  },
+
+  processus: {
+    title: "Comment ça se passe ?",
+    subtitle:
+      "Du premier contact à la livraison — Dennis vous accompagne à chaque étape",
     steps: [
       {
         number: "01",
-        title: "Vous me contactez",
-        description: "Par SMS, téléphone ou WhatsApp. On discute de votre occasion, vos envies et les saveurs disponibles selon la carte de saison.",
-        icon: "MessageCircle"
+        title: "Cerner votre demande",
+        description:
+          "On discute de votre projet, vos contraintes, vos envies. Avec Dennis, on peut toujours tout aborder — co-créativité ou carte blanche, c'est vous qui choisissez.",
       },
       {
         number: "02",
-        title: "Je crée pour vous",
-        description: "Votre commande est réalisée sur mesure — 72h pour une commande simple, 3 semaines minimum pour un grand événement.",
-        icon: "Cake"
+        title: "Budget & planning",
+        description:
+          "Établissement d'un budget et d'un planning prévisionnels ou définitifs. Dennis prend en compte vos moyens et cherche la meilleure solution pour vous.",
       },
       {
         number: "03",
-        title: "Vous venez récupérer",
-        description: "Le retrait se fait au laboratoire sur rendez-vous. Livraison possible sur demande pour les grands événements.",
-        icon: "MapPin"
-      }
-    ]
+        title: "Choix des matériaux",
+        description:
+          "Essences de bois locales, récupérées ou neuves — chaque essence est choisie pour son caractère unique et adaptée à votre projet.",
+      },
+      {
+        number: "04",
+        title: "Fabrication documentée",
+        description:
+          "Dennis fabrique, restaure ou relooking en documentant son travail. Vous suivez l'avancement et échangez tout au long du projet.",
+      },
+      {
+        number: "05",
+        title: "Livraison & satisfaction",
+        description:
+          "Le produit fini vous est livré ou remis à l'atelier. Dennis évalue votre satisfaction — et s'adapte aux imprévus si besoin.",
+      },
+    ],
   },
 
-  incontournables: {
-    title: "Les incontournables",
-    subtitle: "Mes créations phares — disponibles à la commande toute l'année dans la gamme de saison",
+  atelier: {
+    title: "L'atelier & le bois",
+    subtitle: "Situé à Trévé, en Centre-Bretagne",
+    description:
+      "Anciennement double-garage, l'atelier est avant tout un espace de réflexion, de création et de peaufinement. Dennis l'a aménagé et y met tout en œuvre pour que chaque projet devienne votre objet favori.",
+    woodQuote:
+      "Pour Dennis, il n'existe pas de bois inutile, mais une multitude d'opportunités de création. Travailler avec du bois recyclé, marqué par le temps et empreint de caractère, c'est redonner vie à des matériaux oubliés.",
+    woodQuote2:
+      "Les essences locales — chêne, châtaignier, hêtre, douglas et pin maritime — occupent une place importante dans ses projets. Chaque essence est choisie pour son caractère unique.",
+    essences: [
+      { name: "Chêne", usage: "Meubles & agencements" },
+      { name: "Châtaignier", usage: "Meubles & structures" },
+      { name: "Hêtre", usage: "Fabrication & tournage" },
+      { name: "Douglas", usage: "Structures & aménagements" },
+      { name: "Pin maritime", usage: "Structures extérieures" },
+      { name: "Érable · Wengé", usage: "Manches, objets & déco" },
+    ],
+    proverb: "« Bois inutile porte fruit précieux »",
+    proverbNote: "Proverbe français — et philosophie de Dennis",
+  },
+
+  galerie: {
+    title: "Les réalisations",
+    subtitle:
+      "Projets sur mesure, restaurations et objets uniques — un aperçu de l'univers dmp créations",
+    categories: ["Tout", "Sur mesure", "Restauration", "Cadeaux & objets"],
+    note: "Les objets proposés à la vente sont disponibles en contactant directement Dennis.",
+    items: [
+      {
+        category: "Sur mesure",
+        title: "Dressing sur mesure",
+        description: "Dressing multifonctionnel avec portes à lames",
+        photo: "/dmp-creations-dressing-sur-mesure-inside.jpeg",
+      },
+      {
+        category: "Sur mesure",
+        title: "Bibliothèque flottante encastrée",
+        description: "Bibliothèque intégrée sur papier peint tropical",
+        photo: "/dmp-creations-7-e1736626032265.jpeg",
+      },
+      {
+        category: "Sur mesure",
+        title: "Niche aménagée pour mélomanes",
+        description: "Niche HiFi en pierre et bois massif",
+        photo: "/Niche-musicale.jpeg",
+      },
+      {
+        category: "Sur mesure",
+        title: "Lit enfant 3 en 1",
+        description: "Lit, rangement et second lit-tiroir",
+        photo: "/IMG_1184.jpeg",
+      },
+      {
+        category: "Sur mesure",
+        title: "Meuble de salle d'eau",
+        description: "Meuble vasque 100% matériel récupéré",
+        photo: "/dmp-creations-12.jpeg",
+      },
+      {
+        category: "Sur mesure",
+        title: "Placard dressing — vue extérieure",
+        description: "Finitions soignées, bois massif",
+        photo: "/dmp-creations-10.jpeg",
+      },
+      {
+        category: "Restauration",
+        title: "Coiffeuse Napoléon III",
+        description: "Restauration et marqueterie — détail",
+        photo: "/Coiffeuse-Napoleon-III.jpeg",
+      },
+      {
+        category: "Restauration",
+        title: "Relooking de chevets",
+        description: "Deux chevets relookés en jaune soleil",
+        photo: "/Relooking-chevets-1.jpeg",
+      },
+      {
+        category: "Restauration",
+        title: "Couteau — avant / après",
+        description: "Nouveau manche en bois exotique",
+        photo: "/AvantApres.jpeg",
+      },
+      {
+        category: "Restauration",
+        title: "Couteau de poche — avant / après",
+        description: "Réparation et nouveau manche bois",
+        photo: "/AvantApres2.jpeg",
+      },
+      {
+        category: "Restauration",
+        title: "Couteau de boucher — avant / après",
+        description: "Manche refait, lame affûtée",
+        photo: "/AvantApres3.jpeg",
+      },
+      {
+        category: "Cadeaux & objets",
+        title: "Échiquier érable-wengé",
+        description: "Création originale ♟️",
+        photo: "/dmp-creations-2.jpeg",
+      },
+      {
+        category: "Cadeaux & objets",
+        title: "Lampe Blonde Snol",
+        description: "Création originale — bouteille & velours",
+        photo: "/IMG_3778.jpeg",
+      },
+      {
+        category: "Cadeaux & objets",
+        title: "Lampe cristal",
+        description: "Création originale sur plateau chêne",
+        photo: "/dmp-creations-5.jpeg",
+      },
+      {
+        category: "Cadeaux & objets",
+        title: "Couteau damas personnalisé",
+        description: "Lame damas, manche bois exotique",
+        photo: "/IMG_20241206_121406.jpeg",
+      },
+      {
+        category: "Cadeaux & objets",
+        title: "Couteau — manche bois massif",
+        description: "Finition soignée sur fond ardoise",
+        photo: "/IMG_1044.jpeg",
+      },
+      {
+        category: "Cadeaux & objets",
+        title: "Coffret cadeau gravé",
+        description: "Boîte en bois gravée avec initiales",
+        photo: "/IMG_20241209_181308.jpeg",
+      },
+      {
+        category: "Cadeaux & objets",
+        title: "Coffret beauté personnalisé",
+        description: "Boîte à bijoux et maquillage sur mesure",
+        photo: "/Vanity-case-personnalise-1.jpeg",
+      },
+    ],
+  },
+
+  reviews: {
+    title: "Et si vous aussi, vous aimiez ?",
+    subtitle: "Des projets uniques, des clients satisfaits",
     list: [
       {
-        name: "Mes tartes signature",
-        description: "Des tartes travaillées façon Chiara Serpaggi — précises, peu sucrées, visuellement originales. Citron noisette meringué, snickers revisité, fruits de saison sur un biscuit croustillant.",
-        features: ["Citron noisette meringué", "Snickers revisité", "Fraises de saison", "Pommes & spéculoos"],
-        icon: "Cake",
-        photo: "/tarte.jpeg"
+        name: "Valérie",
+        role: "Artisan affûteur rémouleur",
+        project: "Réparation de couteaux",
+        text: "Travail impeccable et d'une grande précision ! Dennis est un véritable expert en réparations de coutellerie, alliant savoir-faire artisanal et souci du détail. Les couteaux retrouvent une seconde vie grâce à son talent. Je recommande vivement.",
+        stars: 5,
       },
       {
-        name: "Biscuits personnalisés",
-        description: "Je grave votre prénom, votre date, votre motif sur chaque sablé. Ce petit détail qui fait que vos invités repartent avec un souvenir dans la main.",
-        features: ["Sablés décorés", "Prénom & date", "Motifs sur mesure", "Toutes occasions"],
-        icon: "Cookie",
-        photo: "/sables-personnalises.jpeg"
+        name: "Patricia & Anthony",
+        role: "",
+        project: "Lampe personnalisée",
+        text: "Cette très belle lampe était notre cadeau de mariage. Elle s'intègre parfaitement dans notre intérieur. Elle respire la classe, la créativité et la chaleur. Avec un niveau de finition élevé et le souci du détail, Dennis a fabriqué cette lampe spécialement pour nous.",
+        stars: 5,
       },
       {
-        name: "Gâteaux d'anniversaire",
-        description: "Du premier anniversaire au demi-siècle, je crée des gâteaux qui vous ressemblent — number cakes, thème, couleurs. Dites-moi ce que vous imaginez.",
-        features: ["Number cakes personnalisés", "Thème & couleurs sur mesure", "1 an, 10 ans, 40 ans…", "Baby shower & baptême"],
-        icon: "Gift",
-        photo: "/gateau-40-ans.jpeg"
+        name: "Jorina & Maurice",
+        role: "",
+        project: "Couteau de poche personnalisé",
+        text: "Le résultat final est magnifique et très durable : un couteau fait main vraiment robuste. Dennis a réfléchi avec nous aux designs possibles et nous a conseillé sur les essences de bois. Le plus : un coffret cadeau gravé avec nos initiales.",
+        stars: 5,
       },
       {
-        name: "Macarons",
-        description: "Des macarons dans les saveurs de la carte de saison, présentés en boîte ou en pyramide pour vos événements.",
-        features: ["Parfums de saison", "Boîte ou pyramide", "Couleurs personnalisables", "Toutes quantités"],
-        icon: "Star",
-        photo: "/macaron-1.jpeg"
-      }
-    ]
-  },
-
-  saisonSection: {
-    title: "Les Gourmandiz de saison",
-    subtitle: "Ma carte change au fil des mois — parce que les meilleures saveurs sont celles du moment",
-    description: "Je travaille avec les fruits et les saveurs du moment. Chaque saison apporte de nouvelles créations : fraisier au printemps, tarte aux mirabelles en été, entremets pomme-caramel en automne, douceurs festives en hiver. Contactez-moi pour connaître la carte du moment.",
-    seasons: [
-      { name: "Printemps", emoji: "🌸", items: ["Fraisier", "Tarte citron-framboise", "Tarte aux fleurs"] },
-      { name: "Été", emoji: "☀️", items: ["Tarte multi-fruits", "Entremets pêche-abricot", "Tarte framboise-pistache"] },
-      { name: "Automne", emoji: "🍂", items: ["Tarte pomme-spéculoos", "Entremets poire-caramel", "Tarte aux figues"] },
-      { name: "Hiver", emoji: "❄️", items: ["Bûche festive", "Tarte chocolat-orange", "Tarte pralinée"] }
+        name: "Aurélie & Guilhem",
+        role: "",
+        project: "Dressing sur mesure",
+        text: "Dennis est à la fois très professionnel, sympathique, ponctuel et sérieux. Il nous a accompagnés de la conception à la création, cernant toujours avec justesse nos attentes. Nous ne manquerons pas de faire de nouveau appel à lui.",
+        stars: 5,
+      },
+      {
+        name: "Ludo",
+        role: "",
+        project: "Hachoir de famille 115 ans",
+        text: "Dennis vient de me livrer ma feuille de boucher ayant appartenu à mon arrière-grand-père. Le manche vermoulu a été remplacé par un superbe manche en chêne, lustrage et affûtage en plus. Merci beaucoup ! Et bravo.",
+        stars: 5,
+      },
+      {
+        name: "Marie",
+        role: "",
+        project: "Coffre de transport personnalisé",
+        text: "Dennis a conçu et réalisé une caisse géniale pour accueillir ma crêpière Krampouz. En l'ouvrant, je crée une surface de travail à hauteur idéale sur le couvercle retourné. C'est beau et pratique à la fois.",
+        stars: 5,
+      },
     ],
-    cta: "Me contacter pour la carte actuelle"
-  },
-
-  evenementsSection: {
-    title: "Événements & grandes occasions",
-    subtitle: "Pour les grands moments, je crée des pièces qui restent dans les mémoires",
-    note: "Pour les grandes commandes, contactez-moi au minimum 3 semaines à l'avance.",
-    list: [
-      {
-        name: "Pièce montée à la française",
-        description: "Une alternative élégante au croquembouche classique. Fraisier monté en cercles, entremets empilés, décorés de fleurs comestibles ou d'éléments personnalisés. À partir de 6€ la part — selon les options (fleurs, topper…).",
-        features: ["Fraisier, mousse, entremets", "Fleurs comestibles", "Topper personnalisé", "À partir de 6€/part"],
-        icon: "Star",
-        photo: "/gateau-mariage.jpeg"
-      },
-      {
-        name: "Pyramide de macarons",
-        description: "Des dizaines de macarons assemblés en pyramide, à vos couleurs et dans les saveurs de la carte de saison. Un centre de table gourmand qui impressionne — et qui se déguste.",
-        features: ["Macarons à vos couleurs", "Parfums de saison", "Mariage, baptême, entreprise", "Disponible toute l'année"],
-        icon: "Sparkles",
-        photo: "/macarons-fille-garcon.jpeg"
-      },
-      {
-        name: "Biscuits personnalisés",
-        description: "Sablés décorés avec prénoms, dates, motifs spéciaux. Un souvenir gourmand pour chacun de vos invités — idéal comme cadeau de mariage ou faire-part comestible.",
-        features: ["Prénom, date, motif", "Emballage individuel possible", "Mariage, baptême, naissance", "Grandes quantités"],
-        icon: "Cookie",
-        photo: "/sables-personnalises.jpeg"
-      }
-    ]
-  },
-
-  whyChooseUs: {
-    title: "Ce que je vous promets",
-    subtitle: "Je ne fais pas de la pâtisserie en série. Chaque commande mérite mon entière attention.",
-    reasons: [
-      {
-        title: "Fraîcheur garantie",
-        description: "Votre commande est réalisée spécialement pour vous dans les 48h avant votre événement. Pas de stock, pas de « déjà fait ».",
-        icon: "Clock"
-      },
-      {
-        title: "Des produits bien choisis",
-        description: "Œufs de Plémet, farine de Saint-Gérand, beurre, crème et lait français. Fruits de saison approvisionnés chez mon grossiste à Loudéac.",
-        icon: "Leaf"
-      },
-      {
-        title: "On crée ensemble",
-        description: "Couleurs, thème, décors, quantité… Je vous écoute, je vous conseille. Les parfums suivent la carte de saison — la personnalisation est toujours possible.",
-        icon: "Sparkles"
-      },
-      {
-        title: "Une formation sérieuse",
-        description: "CAP pâtissier en candidat libre, stages, formations… Je me suis préparée avant de me lancer. Cette rigueur, elle est dans chaque pièce.",
-        icon: "Award"
-      },
-      {
-        title: "Une carte de saison",
-        description: "Fraises au printemps, pommes en automne, agrumes en hiver. Ma carte évolue parce que c'est là que les saveurs sont au meilleur.",
-        icon: "Cake"
-      },
-      {
-        title: "Je suis joignable",
-        description: "Par SMS, téléphone ou WhatsApp. Lundi–vendredi 8h–19h (pause déj.), samedi–dimanche 9h–12h. Je vous réponds rapidement.",
-        icon: "MessageCircle"
-      }
-    ]
-  },
-
-  serviceArea: {
-    title: "Basée à La Motte (22)",
-    description: "Mon laboratoire est à La Motte — ce n'est pas une boutique ouverte. Les retraits se font sur rendez-vous. Je peux livrer sur demande pour les gros événements.",
-    cities: [
-      "La Motte", "Loudéac", "Pontivy", "Rostrenen",
-      "Mûr-de-Bretagne", "La Chèze", "Plémet",
-      "Merdrignac", "Plœuc-sur-Lié", "Et environs"
-    ],
-    radius: "Centre Bretagne — retrait sur RDV à La Motte ou livraison sur demande (grands événements)"
   },
 
   faq: {
     title: "Vous avez des questions ?",
-    subtitle: "Je réponds aux plus fréquentes — et je suis toujours joignable si vous en avez d'autres",
     questions: [
       {
-        question: "Comment est-ce que je passe une commande ?",
-        answer: "Par SMS, téléphone ou WhatsApp — c'est la façon la plus rapide. Dites-moi l'occasion, le nombre de personnes, et vos envies de saveurs en fonction de la carte ou de la saison. Je vous reviens avec une proposition."
+        question: "Comment démarre-t-on un projet ensemble ?",
+        answer:
+          "Très simplement — par téléphone, e-mail ou via le formulaire de contact sur ce site. On échange sur votre idée, vos contraintes, votre budget. Dennis est à l'écoute et prend le temps de cerner vos attentes avant de vous proposer une solution.",
       },
       {
-        question: "Quel délai me faut-il prévoir ?",
-        answer: "Pour une commande simple, 72h suffisent. Pour un gros événement (mariage, pièce montée, grande quantité), contactez-moi au minimum 3 semaines à l'avance — voire plus tôt pour être certain·e de votre date."
+        question: "Est-ce que je peux m'impliquer dans le processus de création ?",
+        answer:
+          "Absolument ! La co-créativité peut conduire à des résultats bluffants. Vous pouvez partager vos idées, vos références, vos contraintes — et même vous impliquer dans les choix de matériaux. Si vous préférez donner carte blanche à Dennis, il vous reviendra avec des options.",
       },
       {
-        question: "Est-ce que je peux tout personnaliser ?",
-        answer: "La personnalisation, oui — couleurs, thème, décors. Pour les parfums, ils suivent la carte de saison : pas de goût carambar dans les macarons, par exemple — je travaille dans ma gamme pour garantir la qualité. On discute ensemble de ce qui est possible."
+        question: "Quels types de bois utilise Dennis ?",
+        answer:
+          "Dennis travaille avec des essences locales naturellement présentes en Bretagne (chêne, châtaignier, hêtre, douglas, pin maritime), des bois durs pour les manches et objets (érable, wengé…), et du bois recyclé ou récupéré qu'il adore revaloriser.",
       },
       {
-        question: "Pour quelles occasions puis-je commander ?",
-        answer: "Anniversaires de 1 à 100 ans, mariages, fiançailles, baby shower, baptêmes, fêtes de fin d'année, Saint-Valentin, repas de famille, événements d'entreprise… Si vous avez une occasion à fêter, j'ai une création à vous proposer."
+        question: "Est-ce que Dennis travaille avec du bois que je fournis ?",
+        answer:
+          "Oui, c'est même une approche qu'il apprécie particulièrement. Vous avez des planches héritées, une poutre, un meuble à transformer ? Dennis saura en tirer parti pour donner à votre projet une dimension supplémentaire.",
       },
       {
-        question: "Pour combien de personnes je peux créer ?",
-        answer: "Je peux répondre à des événements rassemblant jusqu'à une centaine de personnes, selon ce que vous souhaitez. On en parle ensemble lors de la prise de commande."
+        question: "Quels sont les délais ?",
+        answer:
+          "Chaque projet est unique, donc les délais varient selon la complexité. Dennis établit un planning prévisionnel dès le départ et vous tient informé de l'avancement. N'hésitez pas à le contacter pour une estimation.",
       },
       {
-        question: "Comment se passe la tarification ?",
-        answer: "Il y a des prix de base, puis en fonction des options ou de la personnalisation le prix évolue. Exemple : une pièce montée de fraisier à 6€ la part, à laquelle s'ajoutent les fleurs, un topper, etc. Contactez-moi pour un devis précis — c'est sans engagement."
+        question: "Dennis travaille-t-il pour les professionnels ?",
+        answer:
+          "Oui ! Meubles sur mesure pour cabinets médicaux, bars d'accueil, bureaux, commerces, mobilier signature pour l'hôtellerie, la restauration ou les salons de réception — les prestations de dmp créations s'adressent aussi aux professionnels et aux décorateurs.",
       },
       {
-        question: "D'où viennent vos ingrédients ?",
-        answer: "Œufs de Plémet, farine de Saint-Gérand, beurre, crème et lait français. Fruits de saison approvisionnés chez mon grossiste à Loudéac. Pas de fraises à Noël : je travaille avec ce qui est bon, au bon moment."
+        question: "Est-ce que Dennis livre et installe les meubles ?",
+        answer:
+          "Selon les projets, oui. La livraison et l'installation sont à discuter lors de l'établissement du devis, en fonction de votre localisation et de la nature du projet.",
       },
-      {
-        question: "Comment se passe la remise de commande ?",
-        answer: "Le retrait se fait au laboratoire sur rendez-vous — ce n'est pas une boutique ouverte. Je peux aussi livrer sur demande, uniquement pour les gros événements. On s'organise ensemble au moment de la commande."
-      }
-    ]
-  },
-
-  allergens: {
-    title: "Allergènes",
-    intro: "Mes pâtisseries contiennent ou peuvent contenir les allergènes suivants. La liste détaillée par création est disponible sur demande — n'hésitez pas à me le signaler lors de votre commande.",
-    list: [
-      { name: "Gluten", note: "Farine de blé utilisée systématiquement" },
-      { name: "Œufs", note: "Présents dans toutes les préparations" },
-      { name: "Lait", note: "Beurre, crème, lait dans la quasi-totalité des recettes" },
-      { name: "Fruits à coque", note: "Amandes, noisettes, pistaches selon les recettes" },
-      { name: "Traces possibles", note: "Arachides et soja — atelier non spécialisé" }
-    ]
-  },
-
-  reviews: {
-    title: "Ce que disent mes clients",
-    subtitle: "Des créations appréciées — des avis sincères",
-    list: [
-      {
-        name: "Marie L.",
-        text: "Aurore a créé un fraisier magnifique pour l'anniversaire de ma fille. Visuellement sublime et délicieux. Je recommande chaudement !",
-        stars: 5,
-        occasion: "Anniversaire"
-      },
-      {
-        name: "Julie & Florian",
-        text: "Les sablés personnalisés pour notre mariage étaient parfaits. Un souvenir unique pour nos invités, et vraiment délicieux.",
-        stars: 5,
-        occasion: "Mariage"
-      },
-      {
-        name: "Sophie B.",
-        text: "Une pyramide de macarons à nos couleurs pour un baptême — précis, beau, et vraiment savoureux. Merci Aurore !",
-        stars: 5,
-        occasion: "Baptême"
-      }
     ],
-    googleCta: "Laissez votre avis sur Google"
   },
 
   finalCTA: {
-    title: "Une envie de gourmandise ?",
-    subtitle: "Contactez-moi — on imagine ensemble votre création sur mesure",
-    buttonText: "Me contacter"
+    title: "Un projet en tête ?",
+    subtitle:
+      "Contactez Dennis — on imagine ensemble votre création sur mesure",
+    buttonText: "Votre projet",
   },
 
   seo: {
-    title: "Ô Gourmandiz d'Aurore – Pâtisserie artisanale sur commande à La Motte (22)",
-    description: "Pâtisseries artisanales de saison sur commande à La Motte (Côtes-d'Armor). Gâteaux personnalisés, macarons, pièces montées, biscuits. Laboratoire privé. ☎ 06 09 84 60 70",
+    title:
+      "dmp créations — Menuisier-ébéniste artisan à Trévé, Centre-Bretagne",
+    description:
+      "Menuisier-ébéniste artisan à Trévé (22). Meubles sur mesure, restauration de meubles anciens, relooking, couteaux et objets-cadeaux en bois. ☎ 06 56 66 78 11",
     keywords: [
-      "pâtisserie La Motte",
-      "pâtisserie sur commande Loudéac",
-      "gâteau personnalisé 22",
-      "biscuiterie artisanale Bretagne",
-      "gâteau anniversaire Côtes-d'Armor",
-      "macaron sur commande Centre Bretagne",
-      "pièce montée mariage 22",
-      "Aurore pâtissière La Motte",
-      "pâtisserie artisanale Bretagne",
-      "sablés personnalisés Loudéac"
-    ]
+      "menuisier ébéniste Bretagne",
+      "meuble sur mesure Centre-Bretagne",
+      "restauration meuble bois",
+      "artisan bois Côtes-d'Armor",
+      "dressing sur mesure Bretagne",
+      "relooking meuble",
+      "couteau personnalisé bois",
+      "aménagement intérieur bois",
+      "dmp créations",
+      "Dennis Potter menuisier",
+    ],
   },
-
-  schema: {
-    type: "LocalBusiness",
-    additionalType: "Bakery",
-    priceRange: "€€",
-    areaServed: "Centre Bretagne"
-  }
 };

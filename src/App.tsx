@@ -1,20 +1,20 @@
 import { Routes, Route } from 'react-router-dom';
 import Layout from './components/Layout';
 import Home from './pages/Home';
-import Carte from './pages/Carte';
-import Evenements from './pages/Evenements';
-import Commander from './pages/Commander';
-import About from './pages/About';
+import Prestations from './pages/Prestations';
+import Galerie from './pages/Galerie';
+import VotreProjet from './pages/VotreProjet';
+import Atelier from './pages/Atelier';
 
 export default function App() {
   return (
     <Routes>
       <Route path="/" element={<Layout />}>
         <Route index element={<Home />} />
-        <Route path="carte" element={<Carte />} />
-        <Route path="evenements" element={<Evenements />} />
-        <Route path="commander" element={<Commander />} />
-        <Route path="about" element={<About />} />
+        <Route path="prestations" element={<Prestations />} />
+        <Route path="galerie" element={<Galerie />} />
+        <Route path="votre-projet" element={<VotreProjet />} />
+        <Route path="latelier" element={<Atelier />} />
       </Route>
     </Routes>
   );
