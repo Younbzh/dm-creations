@@ -27,7 +27,7 @@ export default function Layout() {
   const linkColor = scrolled || !isHome ? 'text-[#1C1208] hover:text-[#C8893A]' : 'text-white hover:text-white/70';
   const activeColor = scrolled || !isHome ? 'text-[#C8893A]' : 'text-white/70';
   const burgerColor = scrolled || !isHome ? 'text-[#1C1208]' : 'text-white';
-  const logoFilter = scrolled || !isHome ? '' : 'brightness-0 invert';
+  const logoBg = scrolled || !isHome ? '' : 'bg-white/90 rounded-lg px-2 py-1';
 
   const navLinks = [
     { label: 'Prestations', to: '/prestations' },
@@ -42,11 +42,11 @@ export default function Layout() {
       {/* Nav */}
       <nav className={`fixed top-0 w-full z-50 transition-all duration-300 ${navBg}`}>
         <div className="max-w-6xl mx-auto px-5 lg:px-8 flex items-center justify-between h-20">
-          <Link to="/" className="flex items-center gap-3">
+          <Link to="/" className={`flex items-center transition-all duration-300 ${logoBg}`}>
             <img
               src="/Logo-dmp-creations.jpeg"
               alt="dmp créations"
-              className={`h-11 w-auto object-contain rounded transition-all duration-300 ${logoFilter}`}
+              className="h-11 w-auto object-contain rounded"
             />
           </Link>
 
@@ -104,7 +104,9 @@ export default function Layout() {
       <footer className="bg-[#1C1208] text-white">
         <div className="max-w-6xl mx-auto px-5 lg:px-8 py-16 grid md:grid-cols-3 gap-10">
           <div>
-            <img src="/Logo-dmp-creations.jpeg" alt="dmp créations" className="h-14 w-auto object-contain rounded-xl mb-4 brightness-0 invert" />
+            <div className="inline-block bg-white rounded-xl p-2 mb-4">
+              <img src="/Logo-dmp-creations.jpeg" alt="dmp créations" className="h-12 w-auto object-contain" />
+            </div>
             <p className="text-white/50 text-sm leading-relaxed">
               Menuisier-ébéniste artisan.<br />
               Atelier à Trévé, Centre-Bretagne.

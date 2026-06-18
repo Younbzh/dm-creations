@@ -33,7 +33,8 @@ export default function Home() {
           alt="Bibliothèque encastrée dmp créations"
           className="absolute inset-0 w-full h-full object-cover object-center"
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-[#1C1208]/90 via-[#1C1208]/30 to-transparent" />
+        {/* Gradient renforcé : le papier peint coloré exige plus d'opacité pour la lisibilité */}
+        <div className="absolute inset-0 bg-gradient-to-t from-[#1C1208] via-[#1C1208]/75 to-[#1C1208]/20" />
 
         <div className="relative z-10 max-w-6xl mx-auto px-5 lg:px-8 pb-16 md:pb-28 w-full">
           <p className="text-xs uppercase tracking-[0.25em] text-[#C8893A] mb-6">
@@ -106,7 +107,7 @@ export default function Home() {
           </div>
 
           <div>
-            <p className="text-xs uppercase tracking-[0.25em] text-[#C8893A] mb-6">Qui est Dennis ?</p>
+            <p className="text-xs uppercase tracking-[0.25em] text-[#C8893A] mb-6">Qui suis-je ?</p>
             <h2 className="font-display text-4xl md:text-5xl font-bold text-[#1C1208] leading-tight mb-8">
               20 ans de bois,<br />
               <em>une passion</em><br />

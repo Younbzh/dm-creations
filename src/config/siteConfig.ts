@@ -37,37 +37,37 @@ export const siteConfig = {
   },
 
   about: {
-    eyebrow: "Qui est Dennis ?",
+    eyebrow: "Qui suis-je ?",
     title: "Un menuisier-ébéniste hors du commun",
     content: [
-      "Néerlandais marié à une Bretonne, Dennis travaille le bois depuis plus de 20 ans — d'abord aux Pays-Bas pendant son temps libre, puis en France après son retour en Bretagne avec sa famille.",
-      "Fort d'une expérience solide et diverse, il entame une reconversion professionnelle et obtient son CAP Menuisier Fabricant en 2025, avant d'ouvrir son atelier à Trévé pour mettre sa passion au service des particuliers et professionnels.",
+      "Néerlandais marié à une Bretonne, je travaille le bois depuis plus de 20 ans — d'abord aux Pays-Bas pendant mon temps libre, puis en France après mon retour en Bretagne avec ma famille.",
+      "Fort d'une expérience solide et diverse, j'entame une reconversion professionnelle et obtiens mon CAP Menuisier Fabricant en 2025, avant d'ouvrir mon atelier à Trévé pour mettre ma passion au service des particuliers et professionnels.",
     ],
     values: [
       {
         title: "Créatif et inventif",
         description:
-          "Là où d'autres voient un obstacle, Dennis voit une invitation à l'inventivité. Il a toujours des solutions surprenantes pour optimiser vos espaces.",
+          "Là où d'autres voient un obstacle, je vois une invitation à l'inventivité. J'ai toujours des solutions surprenantes pour optimiser vos espaces.",
       },
       {
         title: "Plaisir de l'œil",
         description:
-          "Un objet du quotidien doit être beau, agréable à toucher et plaisant à utiliser. Son exigence en matière de finitions fait de ses pièces des objets qu'on a envie de garder.",
+          "Un objet du quotidien doit être beau, agréable à toucher et plaisant à utiliser. Mon exigence en matière de finitions fait de mes pièces des objets qu'on a envie de garder.",
       },
       {
         title: "Pratique et fonctionnel",
         description:
-          "Faciliter le quotidien, aider à organiser, maximiser les potentiels — Dennis conçoit des meubles qui ont une vraie utilité dans la vie de tous les jours.",
+          "Faciliter le quotidien, aider à organiser, maximiser les potentiels — je conçois des meubles qui ont une vraie utilité dans la vie de tous les jours.",
       },
       {
         title: "Solide et durable",
         description:
-          "Dennis construit pour le long terme : des objets robustes, bien pensés, souvent en bois récupéré ou hérité — des pièces qui se transmettent de génération en génération.",
+          "Je construis pour le long terme : des objets robustes, bien pensés, souvent en bois récupéré ou hérité — des pièces qui se transmettent de génération en génération.",
       },
       {
         title: "Pour tous les budgets",
         description:
-          "Le sur-mesure et le bois massif ne devraient pas être réservés à quelques-uns. Dennis prend en compte vos moyens et vise le meilleur rapport qualité/satisfaction.",
+          "Le sur-mesure et le bois massif ne devraient pas être réservés à quelques-uns. Je prends en compte vos moyens et vise le meilleur rapport qualité/satisfaction.",
       },
     ],
     stats: [
@@ -104,7 +104,7 @@ export const siteConfig = {
         name: "Donner une nouvelle vie",
         emoji: "🌍",
         description:
-          "Vous avez des meubles massifs de valeur ou du bois auquel vous tenez ? Dennis adore faire du neuf avec du vieux. Restauration, relooking, réparation de manches de couteaux et d'ustensiles — un choix (éco)logique qui conserve ce qui vous est cher.",
+          "Vous avez des meubles massifs de valeur ou du bois auquel vous tenez ? J'adore faire du neuf avec du vieux. Restauration, relooking, réparation de manches de couteaux et d'ustensiles — un choix (éco)logique qui conserve ce qui vous est cher.",
         features: [
           "Restauration de meubles anciens",
           "Relooking et modernisation",
@@ -135,37 +135,37 @@ export const siteConfig = {
   processus: {
     title: "Comment ça se passe ?",
     subtitle:
-      "Du premier contact à la livraison — Dennis vous accompagne à chaque étape",
+      "Du premier contact à la livraison — je vous accompagne à chaque étape",
     steps: [
       {
         number: "01",
         title: "Cerner votre demande",
         description:
-          "On discute de votre projet, vos contraintes, vos envies. Avec Dennis, on peut toujours tout aborder — co-créativité ou carte blanche, c'est vous qui choisissez.",
+          "On discute de votre projet, vos contraintes, vos envies. Vous pouvez poser toutes vos questions, partager vos idées et même vous impliquer dans le processus de création.",
       },
       {
         number: "02",
         title: "Budget & planning",
         description:
-          "Établissement d'un budget et d'un planning prévisionnels ou définitifs. Dennis prend en compte vos moyens et cherche la meilleure solution pour vous.",
+          "J'établis un budget et un planning prévisionnels. Je prends en compte vos moyens et cherche toujours la meilleure solution pour vous.",
       },
       {
         number: "03",
         title: "Choix des matériaux",
         description:
-          "Essences de bois locales, récupérées ou neuves — chaque essence est choisie pour son caractère unique et adaptée à votre projet.",
+          "Essences de bois locales, récupérées ou neuves — je choisis chaque essence pour son caractère unique et son adéquation à votre projet.",
       },
       {
         number: "04",
         title: "Fabrication documentée",
         description:
-          "Dennis fabrique, restaure ou relooking en documentant son travail. Vous suivez l'avancement et échangez tout au long du projet.",
+          "Je fabrique, restaure ou relooking en documentant mon travail. Vous suivez l'avancement et on échange tout au long du projet.",
       },
       {
         number: "05",
         title: "Livraison & satisfaction",
         description:
-          "Le produit fini vous est livré ou remis à l'atelier. Dennis évalue votre satisfaction — et s'adapte aux imprévus si besoin.",
+          "Je vous livre le produit fini ou vous le remets à l'atelier. J'évalue votre satisfaction — et m'adapte aux imprévus si besoin.",
       },
     ],
   },
@@ -174,11 +174,11 @@ export const siteConfig = {
     title: "L'atelier & le bois",
     subtitle: "Situé à Trévé, en Centre-Bretagne",
     description:
-      "Anciennement double-garage, l'atelier est avant tout un espace de réflexion, de création et de peaufinement. Dennis l'a aménagé et y met tout en œuvre pour que chaque projet devienne votre objet favori.",
+      "Anciennement double-garage, mon atelier est avant tout un espace de réflexion, de création et de peaufinement. Je l'ai aménagé et y mets tout en œuvre pour que chaque projet devienne votre objet favori.",
     woodQuote:
-      "Pour Dennis, il n'existe pas de bois inutile, mais une multitude d'opportunités de création. Travailler avec du bois recyclé, marqué par le temps et empreint de caractère, c'est redonner vie à des matériaux oubliés.",
+      "Pour moi, il n'existe pas de bois inutile, mais une multitude d'opportunités de création. Travailler avec du bois recyclé, marqué par le temps et empreint de caractère, c'est redonner vie à des matériaux oubliés.",
     woodQuote2:
-      "Les essences locales — chêne, châtaignier, hêtre, douglas et pin maritime — occupent une place importante dans ses projets. Chaque essence est choisie pour son caractère unique.",
+      "Les essences locales — chêne, châtaignier, hêtre, douglas et pin maritime — occupent une place importante dans mes projets. Je choisis chaque essence pour son caractère unique.",
     essences: [
       { name: "Chêne", usage: "Meubles & agencements" },
       { name: "Châtaignier", usage: "Meubles & structures" },
@@ -188,7 +188,7 @@ export const siteConfig = {
       { name: "Érable · Wengé", usage: "Manches, objets & déco" },
     ],
     proverb: "« Bois inutile porte fruit précieux »",
-    proverbNote: "Proverbe français — et philosophie de Dennis",
+    proverbNote: "Proverbe français — et ma philosophie",
   },
 
   galerie: {
@@ -196,7 +196,7 @@ export const siteConfig = {
     subtitle:
       "Projets sur mesure, restaurations et objets uniques — un aperçu de l'univers dmp créations",
     categories: ["Tout", "Sur mesure", "Restauration", "Cadeaux & objets"],
-    note: "Les objets proposés à la vente sont disponibles en contactant directement Dennis.",
+    note: "Les objets proposés à la vente sont disponibles en me contactant directement.",
     items: [
       {
         category: "Sur mesure",
@@ -364,35 +364,35 @@ export const siteConfig = {
       {
         question: "Comment démarre-t-on un projet ensemble ?",
         answer:
-          "Très simplement — par téléphone, e-mail ou via le formulaire de contact sur ce site. On échange sur votre idée, vos contraintes, votre budget. Dennis est à l'écoute et prend le temps de cerner vos attentes avant de vous proposer une solution.",
+          "Très simplement — par téléphone, e-mail ou via le formulaire de contact sur ce site. On échange sur votre idée, vos contraintes, votre budget. Je suis à l'écoute et prends le temps de cerner vos attentes avant de vous proposer une solution.",
       },
       {
         question: "Est-ce que je peux m'impliquer dans le processus de création ?",
         answer:
-          "Absolument ! La co-créativité peut conduire à des résultats bluffants. Vous pouvez partager vos idées, vos références, vos contraintes — et même vous impliquer dans les choix de matériaux. Si vous préférez donner carte blanche à Dennis, il vous reviendra avec des options.",
+          "Absolument ! La co-créativité peut conduire à des résultats bluffants. Vous pouvez partager vos idées, vos références, vos contraintes — et même vous impliquer dans les choix de matériaux. Si vous préférez me donner carte blanche, je vous reviens avec des options.",
       },
       {
-        question: "Quels types de bois utilise Dennis ?",
+        question: "Quels types de bois utilisez-vous ?",
         answer:
-          "Dennis travaille avec des essences locales naturellement présentes en Bretagne (chêne, châtaignier, hêtre, douglas, pin maritime), des bois durs pour les manches et objets (érable, wengé…), et du bois recyclé ou récupéré qu'il adore revaloriser.",
+          "Je travaille avec des essences locales naturellement présentes en Bretagne (chêne, châtaignier, hêtre, douglas, pin maritime), des bois durs pour les manches et objets (érable, wengé…), et du bois recyclé ou récupéré que j'adore revaloriser.",
       },
       {
-        question: "Est-ce que Dennis travaille avec du bois que je fournis ?",
+        question: "Travaillez-vous avec du bois que je fournis ?",
         answer:
-          "Oui, c'est même une approche qu'il apprécie particulièrement. Vous avez des planches héritées, une poutre, un meuble à transformer ? Dennis saura en tirer parti pour donner à votre projet une dimension supplémentaire.",
+          "Oui, c'est même une approche que j'apprécie particulièrement. Vous avez des planches héritées, une poutre, un meuble à transformer ? Je saurai en tirer parti pour donner à votre projet une dimension supplémentaire.",
       },
       {
         question: "Quels sont les délais ?",
         answer:
-          "Chaque projet est unique, donc les délais varient selon la complexité. Dennis établit un planning prévisionnel dès le départ et vous tient informé de l'avancement. N'hésitez pas à le contacter pour une estimation.",
+          "Chaque projet est unique, donc les délais varient selon la complexité. J'établis un planning prévisionnel dès le départ et vous tiens informé de l'avancement. N'hésitez pas à me contacter pour une estimation.",
       },
       {
-        question: "Dennis travaille-t-il pour les professionnels ?",
+        question: "Travaillez-vous pour les professionnels ?",
         answer:
-          "Oui ! Meubles sur mesure pour cabinets médicaux, bars d'accueil, bureaux, commerces, mobilier signature pour l'hôtellerie, la restauration ou les salons de réception — les prestations de dmp créations s'adressent aussi aux professionnels et aux décorateurs.",
+          "Oui ! Meubles sur mesure pour cabinets médicaux, bars d'accueil, bureaux, commerces, mobilier signature pour l'hôtellerie, la restauration ou les salons de réception — mes prestations s'adressent aussi aux professionnels et aux décorateurs.",
       },
       {
-        question: "Est-ce que Dennis livre et installe les meubles ?",
+        question: "Livrez-vous et installez-vous les meubles ?",
         answer:
           "Selon les projets, oui. La livraison et l'installation sont à discuter lors de l'établissement du devis, en fonction de votre localisation et de la nature du projet.",
       },

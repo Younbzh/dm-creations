@@ -95,7 +95,7 @@ export default function Prestations() {
               to="/votre-projet"
               className="inline-flex items-center gap-2 text-[#1C1208] font-semibold border-b-2 border-[#1C1208] pb-0.5 hover:text-[#C8893A] hover:border-[#C8893A] transition-colors"
             >
-              Contactez Dennis <ArrowRight className="w-4 h-4" />
+              Contactez-moi <ArrowRight className="w-4 h-4" />
             </Link>
           </div>
           <div className="bg-[#1C1208] rounded-2xl p-8 md:p-10">
@@ -141,7 +141,7 @@ export default function Prestations() {
             Un projet en tête ?
           </h2>
           <p className="text-white/40 mb-10 text-sm leading-relaxed">
-            Contactez Dennis — il prend le temps de cerner vos attentes avant de vous proposer une solution sur mesure.
+            Contactez-moi — je prends le temps de cerner vos attentes avant de vous proposer une solution sur mesure.
           </p>
           <Link
             to="/votre-projet"

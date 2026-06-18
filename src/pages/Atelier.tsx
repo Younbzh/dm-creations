@@ -31,7 +31,7 @@ export default function Atelier() {
       <section className="bg-[#FAF7F2] py-24">
         <div className="max-w-6xl mx-auto px-5 lg:px-8 grid md:grid-cols-2 gap-16 items-start">
           <div>
-            <p className="text-xs uppercase tracking-[0.25em] text-[#C8893A] mb-6">Son histoire</p>
+            <p className="text-xs uppercase tracking-[0.25em] text-[#C8893A] mb-6">Mon histoire</p>
             {siteConfig.about.content.map((paragraph, i) => (
               <p key={i} className="text-gray-600 leading-relaxed text-lg mb-6">
                 {paragraph}
@@ -49,7 +49,7 @@ export default function Atelier() {
 
           {/* Valeurs */}
           <div className="bg-[#1C1208] rounded-2xl p-8 md:p-10">
-            <p className="text-xs uppercase tracking-[0.25em] text-[#C8893A] mb-6">Ses valeurs</p>
+            <p className="text-xs uppercase tracking-[0.25em] text-[#C8893A] mb-6">Mes valeurs</p>
             <div className="space-y-6">
               {siteConfig.about.values.map((value, i) => (
                 <div key={i} className={i < siteConfig.about.values.length - 1 ? 'pb-6 border-b border-white/10' : ''}>

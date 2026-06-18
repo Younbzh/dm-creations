@@ -106,7 +106,7 @@ export default function Galerie() {
             Vous avez trouvé votre inspiration ?
           </h2>
           <p className="text-white/40 mb-10 text-sm leading-relaxed">
-            Le style dmp créations vous plaît ? Discutons de votre projet — Dennis vous proposera la solution adaptée à vos envies et vos espaces.
+            Le style dmp créations vous plaît ? Discutons de votre projet — je vous proposerai la solution adaptée à vos envies et vos espaces.
           </p>
           <Link
             to="/votre-projet"
