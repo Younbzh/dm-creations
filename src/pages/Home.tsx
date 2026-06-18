@@ -27,7 +27,7 @@ export default function Home() {
   return (
     <>
       {/* Hero */}
-      <section className="relative h-screen flex items-end overflow-hidden bg-[#1C1208]">
+      <section className="relative h-screen flex items-end overflow-hidden bg-[#1C1208] pt-20">
         <img
           src="/IMG_3778.jpeg"
           alt="Lampe Blonde Snol — création originale dmp créations"
