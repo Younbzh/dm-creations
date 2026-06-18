@@ -6,19 +6,19 @@ const visualLinks = [
   {
     label: 'Prestations',
     sub: 'Sur mesure · Restauration · Cadeaux',
-    bg: 'from-[#3D1F08] to-[#1C1208]',
+    photo: '/Niche-musicale.jpeg',
     to: '/prestations',
   },
   {
     label: 'Galerie',
     sub: 'Projets en images',
-    bg: 'from-[#2A1A08] to-[#1C1208]',
+    photo: '/Relooking-chevets-1.jpeg',
     to: '/galerie',
   },
   {
     label: 'Votre projet',
     sub: 'Demande de devis',
-    bg: 'from-[#1C1208] to-[#0E0B04]',
+    photo: '/dmp-creations-etabli-e1733245591178.jpeg',
     to: '/votre-projet',
   },
 ];
@@ -66,15 +66,20 @@ export default function Home() {
 
       {/* 3 blocs visuels */}
       <section className="grid md:grid-cols-3">
-        {visualLinks.map(({ label, sub, bg, to }) => (
+        {visualLinks.map(({ label, sub, photo, to }) => (
           <Link
             key={to}
             to={to}
             className="relative overflow-hidden group text-left block"
             style={{ aspectRatio: '4/5' }}
           >
-            <div className={`absolute inset-0 bg-gradient-to-br ${bg}`} />
-            <div className="absolute inset-0 bg-[#1C1208]/30 group-hover:bg-[#1C1208]/50 transition-colors duration-300" />
+            <div className="absolute inset-0 bg-[#1C1208]" />
+            <img
+              src={photo}
+              alt={label}
+              className="absolute inset-0 w-full h-full object-cover opacity-70 group-hover:opacity-60 group-hover:scale-105 transition-all duration-700"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-[#1C1208]/90 via-[#1C1208]/20 to-transparent" />
             <div className="absolute bottom-0 left-0 right-0 p-6 md:p-8 flex items-end justify-between">
               <div>
                 <p className="text-[10px] uppercase tracking-widest text-[#C8893A] mb-2">{sub}</p>
