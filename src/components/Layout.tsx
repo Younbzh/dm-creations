@@ -27,7 +27,8 @@ export default function Layout() {
   const linkColor = scrolled || !isHome ? 'text-[#1C1208] hover:text-[#C8893A]' : 'text-white hover:text-white/70';
   const activeColor = scrolled || !isHome ? 'text-[#C8893A]' : 'text-white/70';
   const burgerColor = scrolled || !isHome ? 'text-[#1C1208]' : 'text-white';
-  const logoBg = scrolled || !isHome ? '' : 'bg-white/90 rounded-lg px-2 py-1';
+  const logoColor = scrolled || !isHome ? 'text-[#1C1208]' : 'text-white';
+  const logoSub = scrolled || !isHome ? 'text-[#C8893A]' : 'text-white/60';
 
   const navLinks = [
     { label: 'Prestations', to: '/prestations' },
@@ -42,12 +43,13 @@ export default function Layout() {
       {/* Nav */}
       <nav className={`fixed top-0 w-full z-50 transition-all duration-300 ${navBg}`}>
         <div className="max-w-6xl mx-auto px-5 lg:px-8 flex items-center justify-between h-20">
-          <Link to="/" className={`flex items-center transition-all duration-300 ${logoBg}`}>
-            <img
-              src="/Logo-dmp-creations.jpeg"
-              alt="dmp créations"
-              className="h-11 w-auto object-contain rounded"
-            />
+          <Link to="/" className="flex flex-col leading-tight transition-colors duration-300">
+            <span className={`text-[9px] uppercase tracking-[0.3em] transition-colors duration-300 ${logoSub}`}>
+              menuisier · ébéniste
+            </span>
+            <span className={`font-display text-xl font-bold italic transition-colors duration-300 ${logoColor}`}>
+              dmp créations
+            </span>
           </Link>
 
           {/* Desktop */}
@@ -104,8 +106,9 @@ export default function Layout() {
       <footer className="bg-[#1C1208] text-white">
         <div className="max-w-6xl mx-auto px-5 lg:px-8 py-16 grid md:grid-cols-3 gap-10">
           <div>
-            <div className="inline-block bg-white rounded-xl p-2 mb-4">
-              <img src="/Logo-dmp-creations.jpeg" alt="dmp créations" className="h-12 w-auto object-contain" />
+            <div className="mb-5">
+              <span className="text-[9px] uppercase tracking-[0.3em] text-[#C8893A]">menuisier · ébéniste</span>
+              <p className="font-display text-2xl font-bold italic text-white leading-none mt-1">dmp créations</p>
             </div>
             <p className="text-white/50 text-sm leading-relaxed">
               Menuisier-ébéniste artisan.<br />

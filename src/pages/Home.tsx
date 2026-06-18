@@ -29,12 +29,11 @@ export default function Home() {
       {/* Hero */}
       <section className="relative h-screen flex items-end overflow-hidden bg-[#1C1208]">
         <img
-          src="/dmp-creations-7-e1736626032265.jpeg"
-          alt="Bibliothèque encastrée dmp créations"
+          src="/IMG_3778.jpeg"
+          alt="Lampe Blonde Snol — création originale dmp créations"
           className="absolute inset-0 w-full h-full object-cover object-center"
         />
-        {/* Gradient renforcé : le papier peint coloré exige plus d'opacité pour la lisibilité */}
-        <div className="absolute inset-0 bg-gradient-to-t from-[#1C1208] via-[#1C1208]/75 to-[#1C1208]/20" />
+        <div className="absolute inset-0 bg-gradient-to-t from-[#1C1208]/95 via-[#1C1208]/40 to-[#1C1208]/10" />
 
         <div className="relative z-10 max-w-6xl mx-auto px-5 lg:px-8 pb-16 md:pb-28 w-full">
           <p className="text-xs uppercase tracking-[0.25em] text-[#C8893A] mb-6">
